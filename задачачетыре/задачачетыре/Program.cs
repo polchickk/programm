@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace задачачетыре
 {
     class Program
     {
@@ -12,10 +12,10 @@ namespace ConsoleApp2
         {
             Console.WriteLine("Введите символ");
             var symbol = Console.ReadLine()[0];
-           
-            Console.WriteLine($" Символ \'{symbol}\': 0x{Convert.ToString((int)symbol,16).ToUpper()}");
-            Console.ReadKey();     
-            
+
+            Console.WriteLine($" Символ \'{symbol}\': 0x{Convert.ToString((int)symbol, 16).ToUpper()}");
+            Console.WriteLine($"Следующий символ:\'{(char)((int) symbol + 1)}\'");
+            Console.ReadKey();
         }
     }
 }
