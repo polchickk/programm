@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace helloworld
+namespace october18
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!!!!");
-
-            Console.ReadKey();
         }
     }
 }
