@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "выделение метода", "выделение метода\выделение метода.csproj", "{F20C1CD5-3FC2-4FF2-876C-A8D4B62DA480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F20C1CD5-3FC2-4FF2-876C-A8D4B62DA480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20C1CD5-3FC2-4FF2-876C-A8D4B62DA480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20C1CD5-3FC2-4FF2-876C-A8D4B62DA480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20C1CD5-3FC2-4FF2-876C-A8D4B62DA480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {175EDC03-19A9-4A8C-B01C-90D6E2F6195D}
+	EndGlobalSection
+EndGlobal
