@@ -10,16 +10,16 @@ namespace task3._1
     {
         static void Main(string[] args)
         {
-           var  a = Console.ReadLine();
-            int a1 = Convert.ToInt32(a);
-            var b = Console.ReadLine();
-            int b1 = Convert.ToInt32(b); 
-            var c = Console.ReadLine();
-            int c1 = Convert.ToInt32(c);
-            var resA = (a1+b1+c1)/3;
-            var resG = (a1 * b1 * c1) / 3;
-            Console.WriteLine( resA);
-            Console.WriteLine( resG);
+            Console.WriteLine("Введите перменную ");
+            var  a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите перменную ");
+            var  b = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите перменную ");
+            var  c = double.Parse(Console.ReadLine());
+            var resA = (a+b+c)/3;
+            var resG = Math.Pow((a * b * c),1/3);
+            Console.WriteLine($"Среднее арефметическое данных трех чисел = " + resA);
+            Console.WriteLine($"Среднее геометрическое данных трех чисел = " + resG);
             Console.ReadKey();
             
         }
