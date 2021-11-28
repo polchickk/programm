@@ -19,7 +19,7 @@ namespace tasks7
         {
             if (x < -2)
                 return Math.Sqrt(x * x + 4);
-            if (x > 1)
+            else if (x > 1)
                 return Math.Sqrt(x * x - 1);
             else
                 return 1 / (x * x + 1);
